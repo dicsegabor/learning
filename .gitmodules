@@ -1,0 +1,3 @@
+[submodule "own/hexxaggon_rust"]
+	path = own/hexxaggon_rust
+	url = git@github.com:dicsegabor/university.git
