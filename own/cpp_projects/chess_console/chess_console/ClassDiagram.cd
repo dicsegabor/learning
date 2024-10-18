@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlayerComputer">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerComputer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHuman">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerHuman.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAbstract">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="PlayerAbstract::Color" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PlayerAbstract.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerAbstract.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pawn">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pawn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PieceAbstract">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="PieceAbstract::Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PieceAbstract.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACIBAACAAAAAAAAAAAABACCAAAAgAAEAAAA=</HashCode>
+      <FileName>PieceAbstract.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Board">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAEEBAAAAAEAAAAAAAgAAAAgACAAACAAAAA=</HashCode>
+      <FileName>Board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Field">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Field::Coordinate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Field.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAgBAAAAgAAAgAAAAgAA=</HashCode>
+      <FileName>Field.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewConsole">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ViewConsole.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAQAAAAAAAAAAAAAAgAAAAgIQAAAAAAEAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Move">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIEAIAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Move.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

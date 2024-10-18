@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{837ef541-fda7-4067-91bb-c1de30c1ad80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{741167d8-97d5-4e62-aeb6-f8e2d23002c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{558fc3b4-a61d-40fe-a384-6a562eac346a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Players">
+      <UniqueIdentifier>{5dcd91e8-db5b-416e-836c-88580a2f07fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Structure">
+      <UniqueIdentifier>{c35a0ff1-94f7-40f9-8f58-56baa3833c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Players">
+      <UniqueIdentifier>{008eeef1-e92d-48f6-b775-176d1514c14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{e8f5e27f-9899-4319-9211-ab7d1adb1138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Structure">
+      <UniqueIdentifier>{4227a334-e1a3-470f-980f-9eff87e345f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{cf1a493d-4986-4912-978a-71aacbd5b4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controller">
+      <UniqueIdentifier>{a61a5ffa-01af-43fc-b537-f859c7cb2909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other">
+      <UniqueIdentifier>{b3c25470-457e-41fa-b0c9-8a1238b903e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Rules">
+      <UniqueIdentifier>{4e0b71ad-7bcd-40c9-ac86-3de7ce625d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Rules">
+      <UniqueIdentifier>{a2de4a4c-383b-49f2-96a8-89a63fc28c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Structure\Pieces">
+      <UniqueIdentifier>{88117c00-38de-4966-8cab-c398908fdda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Structure\Pieces">
+      <UniqueIdentifier>{7ebbd660-a698-46f8-bf66-bf7675fa6086}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chess_console.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHuman.cpp">
+      <Filter>Source Files\Model\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComputer.cpp">
+      <Filter>Source Files\Model\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAbstract.cpp">
+      <Filter>Source Files\Model\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files\Model\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Source Files\Model\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewConsole.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Source Files\Model\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Source Files\Model\Structure\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pieces.cpp">
+      <Filter>Source Files\Model\Structure\Pieces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlayerHuman.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComputer.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAbstract.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files\Model\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Header Files\Model\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewConsole.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Header Files\Model\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Header Files\Model\Structure\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Pieces.h">
+      <Filter>Header Files\Model\Structure\Pieces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
