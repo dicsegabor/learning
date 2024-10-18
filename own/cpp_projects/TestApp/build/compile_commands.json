@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build -I/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp -I/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/testapp.dir/testapp_autogen/mocs_compilation.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/mocs_compilation.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build -I/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp -I/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/testapp.dir/src/main.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/src/main.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/src/main.cpp"
+},
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build -I/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp -I/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/testapp.dir/src/testapp.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/src/testapp.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/src/testapp.cpp"
+}
+]

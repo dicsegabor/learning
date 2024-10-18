@@ -1,0 +1,7 @@
+/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build/CMakeFiles/chess.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build/CMakeFiles/edit_cache.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build/CMakeFiles/rebuild_cache.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build/CMakeFiles/list_install_components.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build/CMakeFiles/install.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build/CMakeFiles/install/local.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,14 @@
+Expected
+Mozgathato.Karakter.as, Mozgathato.Karakter.keres, Horeteg: 0
+Unexpected
+Horeteg: 1
+Commands
+loadmap map.txt
+setfield STABIL_2_4 1
+
+karakter ESZKIMO STABIL_2_4
+dig ESZKIMO_0
+
+stat STABIL_2_4
+stat ESZKIMO_0
+exit

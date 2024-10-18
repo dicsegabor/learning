@@ -1,0 +1,27 @@
+# ninja log v5
+4	393	1672822130927245585	testapp_autogen/timestamp	1fcf616afc00329f
+4	393	1672822130927245585	testapp_autogen/mocs_compilation.cpp	1fcf616afc00329f
+4	393	1672822130927245585	/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/timestamp	1fcf616afc00329f
+4	393	1672822130927245585	/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/mocs_compilation.cpp	1fcf616afc00329f
+393	4040	1672822134587267103	CMakeFiles/testapp.dir/testapp_autogen/mocs_compilation.cpp.o	f72ce239f1b9f00b
+394	4464	1672822135010602925	CMakeFiles/testapp.dir/src/testapp.cpp.o	17b0a23ceb6110b4
+393	4465	1672822135013936278	CMakeFiles/testapp.dir/src/main.cpp.o	a7f0bd33bde923dc
+4465	5174	1672822135713940395	testapp	ea1a7caa0164a4d2
+9	93	1672825091410261928	testapp_autogen/timestamp	1fcf616afc00329f
+9	93	1672825091410261928	testapp_autogen/mocs_compilation.cpp	1fcf616afc00329f
+9	93	1672825091410261928	/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/timestamp	1fcf616afc00329f
+9	93	1672825091410261928	/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/mocs_compilation.cpp	1fcf616afc00329f
+95	2554	1672825093873611752	CMakeFiles/testapp.dir/src/testapp.cpp.o	17b0a23ceb6110b4
+2554	3492	1672825094806951334	testapp	ea1a7caa0164a4d2
+6	39	1672825183974214481	testapp_autogen/timestamp	1fcf616afc00329f
+6	39	1672825183974214481	testapp_autogen/mocs_compilation.cpp	1fcf616afc00329f
+6	39	1672825183974214481	/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/timestamp	1fcf616afc00329f
+6	39	1672825183974214481	/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/mocs_compilation.cpp	1fcf616afc00329f
+41	1881	1672825185817560136	CMakeFiles/testapp.dir/src/testapp.cpp.o	17b0a23ceb6110b4
+1881	2320	1672825186250896366	testapp	ea1a7caa0164a4d2
+4	38	1672825293298278137	testapp_autogen/timestamp	1fcf616afc00329f
+4	38	1672825293298278137	testapp_autogen/mocs_compilation.cpp	1fcf616afc00329f
+4	38	1672825293298278137	/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/timestamp	1fcf616afc00329f
+4	38	1672825293298278137	/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/testapp_autogen/mocs_compilation.cpp	1fcf616afc00329f
+40	1849	1672825295108290219	CMakeFiles/testapp.dir/src/testapp.cpp.o	17b0a23ceb6110b4
+1849	2285	1672825295541626445	testapp	ea1a7caa0164a4d2

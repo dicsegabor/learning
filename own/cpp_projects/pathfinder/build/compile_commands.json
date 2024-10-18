@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/pathfinder.dir/main.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/main.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/main.cpp"
+},
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/pathfinder.dir/graph.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/graph.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/graph.cpp"
+},
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/pathfinder.dir/path_finding.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/path_finding.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/path_finding.cpp"
+},
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/pathfinder.dir/utilities.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/utilities.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/utilities.cpp"
+}
+]

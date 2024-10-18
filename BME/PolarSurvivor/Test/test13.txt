@@ -1,0 +1,12 @@
+Expected
+Mezo.Mezo.setSzomszed, Mezo.Mezo.szomszedE, Mezo.Mezo.setHoreteg, Mezo.Jegtabla.setTargy, Mezo.Mezo.vihar, Mezo.Mezo.addKarakter, Mezo.Jegtabla.vihar, Mozgathato.Karakter.testhotCsokkent, Mezo.Mezo.getHoreteg, Mezo.Mezo.getKapacitas, Mezo.Jegtabla.getTargy, Mozgathato.Karakter.getMezo
+Unexpected
+
+Commands
+loadmap map.txt
+setfield STABIL_2_3 2
+karakter ESZKIMO STABIL_2_3
+turn
+stat STABIL_2_3
+stat ESZKIMO_0
+exit

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/chess.dir/main.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/chess/main.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/main.cpp"
+},
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/chess.dir/board.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/chess/board.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/board.cpp"
+},
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/chess.dir/field.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/chess/field.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/field.cpp"
+},
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/chess.dir/figure.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/chess/figure.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/figure.cpp"
+},
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/chess.dir/graphics.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/chess/graphics.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/graphics.cpp"
+},
+{
+  "directory": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/chess.dir/other.cpp.o -c /home/dicsegabor/dev/own_projects/c++/learning_projects/chess/other.cpp",
+  "file": "/home/dicsegabor/dev/own_projects/c++/learning_projects/chess/other.cpp"
+}
+]

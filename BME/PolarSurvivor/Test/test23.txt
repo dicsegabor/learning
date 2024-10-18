@@ -1,0 +1,14 @@
+Expected
+Mozgathato.Karakter.keres, Mezo.Mezo.tudnakEOsszeszerlni
+Unexpected
+ProtoProgram.jatekVege
+Commands
+loadmap map.txt
+setfield STABIL_2_4 3
+karakter ESZKIMO STABIL_2_4 PISZTOLY PATRON
+karakter ESZKIMO STABIL_2_4
+combine ESZKIMO_0
+stat STABIL_2_4
+stat ESZKIMO_0
+stat ESZKIMO_1
+exit

@@ -1,0 +1,14 @@
+Expected
+Mezo.Mezo.setSzomszed, Mezo.Mezo.szomszedE, Mezo.Mezo.tudnakEOsszeszerlni, Targy.Pisztoly.tipus, Mozgathato.Karakter.keres
+Unexpected
+Mozgathato.Karakter.kombinal,Mozgathato.Karakter.munkaCsokkent
+Commands
+loadmap map.txt
+setfield STABIL_2_4 3
+karakter ESZKIMO STABIL_2_4 PISZTOLY PATRON
+karakter ESZKIMO STABIL_2_4 JELZOFENY 
+combine ESZKIMO_0
+stat STABIL_2_4
+stat ESZKIMO_0
+stat ESZKIMO_0
+exit

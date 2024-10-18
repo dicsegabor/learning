@@ -1,0 +1,6 @@
+# ninja log v5
+4	435	1672811506161094258	CMakeFiles/pathfinder.dir/utilities.cpp.o	11c3eff8e7637150
+3	1183	1672811506911125013	CMakeFiles/pathfinder.dir/main.cpp.o	d100470b0e83bae2
+4	1235	1672811506961127064	CMakeFiles/pathfinder.dir/path_finding.cpp.o	74288ace0e65483
+3	1421	1672811507147801370	CMakeFiles/pathfinder.dir/graph.cpp.o	636c0795e0690211
+1421	1577	1672811507304474445	pathfinder	72d45cbb9d5c674

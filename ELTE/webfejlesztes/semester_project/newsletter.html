@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="madarak" />
+  <meta name="author" content="Dicse Gábor" />
+
+  <title>Tájaink madarai - Ajánlás, Hírlevél</title>
+
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <ul id="pagemenu">
+    <li>
+      <a class="accessibility-link" href="#main-menu">Főmenü</a>
+    </li>
+    <li>
+      <a class="accessibility-link" href="#main-content">Tartalom</a>
+    </li>
+    <li>
+      <a class="accessibility-link" href="#video">Videó</a>
+    </li>
+    <li>
+      <a class="accessibility-link" href="#newsletter">Hírlevél</a>
+    </li>
+    <li>
+      <a class="accessibility-link" href="#footer-menu">Lábléc</a>
+    </li>
+  </ul>
+  <div class="container">
+    <header class="page-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-2 mx-4">
+          <img src="media/bird_logo.png" alt="Logo" class="img-fluid" />
+        </div>
+        <div class="col-7">
+          <h1 class="page-header-logo text-dark">Tájaink Madarai</h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="nav-scroller py-2 mb-4" id="main-menu">
+      <nav class="nav">
+        <div class="container">
+          <div class="row">
+            <div class="col nav-button">
+              <a class="p-2 text-muted" href="index.html">Kezdőlap</a>
+            </div>
+            <div class="col nav-button">
+              <a class="p-2 text-muted" href="birds.html">Madarak</a>
+            </div>
+            <div class="col nav-button">
+              <a class="p-2 text-muted" href="bird_friendly.html">Madárbarát</a>
+            </div>
+            <div class="col nav-button nav-button-active">
+              <a class="p-2 text-muted" href="newsletter.html">Hírlevél</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <main class="container">
+      <div class="container d-flex justify-content-center mb-5">
+        <h2 class="page-title">Ajánlás, Hírlevél</h2>
+      </div>
+      <div class="page-content py-3 border-top">
+        <article id="main-content">
+          <div class="container bg-light p-4 my-3 rounded border">
+            <div class="row justify-content-center">
+              <div class="col-auto">
+                <details>
+                  <summary>
+                    <h3>Ajánlott oldalak</h3>
+                  </summary>
+                  <p>
+                    Az alább felsorolt oldalakon rengeteg hasznos inforámiót
+                    olvashatunk a madarak viselkedéséről, kézetéről és
+                    hangjáról, valamint a különböző szervezetek munkásságáról.
+                  </p>
+                </details>
+                <table class="table thead-light table-responsive">
+                  <thead>
+                    <tr>
+                      <th scope="col">Név</th>
+                      <th scope="col">Leírás</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <a href="https://www.mme.hu/az-mme-madarbarat-magyarorszagert">Magyar madártani és
+                          természetvédelmi egyesület</a>
+                      </td>
+                      <td>
+                        A szervezet a magyarországi madárállomány
+                        tanulmányozásával és megőrzésével foglalkozik.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="https://www.birds.cornell.edu/home/">Cornell lab ornithology</a>
+                      </td>
+                      <td>
+                        Ezen az oldalon értékes kutatásokhoz és információkhoz
+                        juthatunk a Cornell egyetem jóvoltából.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="https://www.allaboutbirds.org/news/">All about birds</a>
+                      </td>
+                      <td>
+                        Ezen az oldalon megismerhetjük a különböző
+                        madárfajokat és élő képet nézhetünk fészkekről.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="https://www.xeno-canto.org/">Xeno-Canto bird sounds</a>
+                      </td>
+                      <td>
+                        Ezen az oldalon meghallgathatjuk a különböző fajok
+                        énekét.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div id="video">
+          <div class="embed-responsive embed-responsive-16by9 my-4">
+            <video width="320" height="240" controls poster="media/birdsong_thumbnail.jpeg">
+              <source src="media/birdsong.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <article id="newsletter">
+          <form class="bg-light p-3 rounded" action="mailto:dicsegabor@gmail.com" method="POST" enctype="text/plain">
+            <div class="container d-flex justify-content-center">
+              <h3 class="page-content-title">Hírlevél feliratkozás</h3>
+            </div>
+            <div class="form-group">
+              <label for="name">Név</label>
+              <input type="text" class="form-control" id="name" name="name" size="50" maxlength="50"
+                placeholder="Kérem adja meg a nevét!" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail cím</label>
+              <input type="email" class="form-control" id="email" name="email" size="50" maxlength="50"
+                placeholder="Kérem adja meg az e-mail címét!" required />
+              <small id="emailHelp" class="form-text text-muted">E-mail címét mással nem osztjuk meg.</small>
+            </div>
+            <div class="form-group">
+              <label for="country">Ország</label>
+              <input type="text" class="form-control" id="country" size="50" maxlength="50" name="country"
+                placeholder="Kérem adja meg az országát! (opcionális)" />
+            </div>
+            <div class="form-group d-flex justify-content-between">
+              <label>Milyen szintű ismerettel rendelkezik a madarakról?</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" value="amateur" name="mastery" />
+                <label class="form-check-label">Amatőr</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" value="advanced" name="mastery" />
+                <label class="form-check-label">Haladó</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" value="master" name="mastery" />
+                <label class="form-check-label">Mesteri</label>
+              </div>
+            </div>
+            <div class="form-group d-flex justify-content-between">
+              <label>Milyen rendszerességgel szeretne e-mail-t kapni?</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="year" />
+                <label class="form-check-label">Év</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="month" />
+                <label class="form-check-label">Hónap</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="week" />
+                <label class="form-check-label">Hét</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="reason">Miért szeretne csatlakozni?</label>
+              <textarea rows="5" class="form-control" id="reason" name="reason"
+                placeholder="Kérem adja meg miért szeretne csatlakozni! (opcionális)"></textarea>
+            </div>
+            <div class="form-group d-flex justify-content-around">
+              <button type="submit" value="send" class="btn btn-primary">
+                Feliratkozom!
+              </button>
+              <button type="reset" class="btn btn-secondary">
+                Visszaállítás
+              </button>
+            </div>
+          </form>
+        </article>
+      </div>
+    </main>
+  </div>
+  <footer class="page-footer my-4" id="footer-menu">
+    <p>Készítette:</p>
+    <p>Dicse Gábor</p>
+    <p>dicsegabor@gmail.com</p>
+    <p>
+      <a href="#">Vissza a tetejére</a>
+    </p>
+  </footer>
+</body>
+
+</html>

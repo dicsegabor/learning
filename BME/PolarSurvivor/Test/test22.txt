@@ -1,0 +1,14 @@
+Expected
+Mozgathato.Karakter.eldob, Targy.Lapat.hasznal, Targy.TorekenyLapat.hasznal, Mezo.Mezo.havatCsokkent
+Unexpected
+
+Commands
+loadmap map.txt
+setfield STABIL_2_4 6
+karakter ESZKIMO STABIL_2_4 TOREKENYLAPAT
+dig ESZKIMO_0
+dig ESZKIMO_0
+dig ESZKIMO_0
+stat STABIL_2_4
+stat ESZKIMO_0
+exit

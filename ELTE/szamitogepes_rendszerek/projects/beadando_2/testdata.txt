@@ -1,0 +1,10 @@
+Fűzfa 1 kft, 1111 Budapest Ökör utca 1, 0, 10
+Fűzfa 2 kft, 1111 Budapest Ökör utca 2, 1, 9
+Fűzfa 3 kft, 1111 Budapest Ökör utca 3, 2, 8
+Fűzfa 4 kft, 1111 Budapest Ökör utca 4, 3, 7
+Fűzfa 5 kft, 1111 Budapest Ökör utca 5, 4, 6
+Fűzfa 6 kft, 1111 Budapest Ökör utca 6, 5, 5
+Fűzfa 7 kft, 1111 Budapest Ökör utca 7, 6, 4
+Fűzfa 8 kft, 1111 Budapest Ökör utca 8, 9, 3
+Fűzfa 9 kft, 1111 Budapest Ökör utca 9, 9, 2
+Fűzfa 10 kft, 1111 Budapest Ökör utca 9, 9, 1

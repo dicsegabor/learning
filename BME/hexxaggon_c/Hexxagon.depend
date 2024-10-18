@@ -1,0 +1,212 @@
+# depslib dependency file v1.0
+1542974958 source:c:\drive\programozás\code blocks\hexxagon\hexxagon_graphics.c
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1567983099 graphics.h"
+
+1542974836 c:\drive\programozás\code blocks\hexxagon\hexxagon_control.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1542974836 >
+
+1542960334 c:\drive\programozás\code blocks\hexxagon\hexxagon_graphics.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"hexxagon_control.h"
+
+1542960334 control.h"
+
+1542974836 source:c:\drive\programozás\code blocks\hexxagon\main.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1543004910 source:c:\drive\programozás\code blocks\hexxagon\hexxagon_control.c
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1543004910 source:c:\drive\programozás\c\hexxagon\hexxagon_control.c
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1542974836 c:\drive\programozás\c\hexxagon\hexxagon_control.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1542960334 c:\drive\programozás\c\hexxagon\hexxagon_graphics.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"hexxagon_control.h"
+
+1542974958 source:c:\drive\programozás\c\hexxagon\hexxagon_graphics.c
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1542974836 source:c:\drive\programozás\c\hexxagon\main.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1571388509 source:c:\users\dell\google drive\programozás\c\hexxagon\hexxagon_control.c
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1542974836 c:\users\dell\google drive\programozás\c\hexxagon\hexxagon_control.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1542960334 c:\users\dell\google drive\programozás\c\hexxagon\hexxagon_graphics.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"hexxagon_control.h"
+
+1542974958 source:c:\users\dell\google drive\programozás\c\hexxagon\hexxagon_graphics.c
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1567983099 source:c:\users\dell\google drive\programozás\c\hexxagon\main.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1571388509 source:c:\users\dell\google drive\programming\c\hexxagon\hexxagon_control.c
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1542974836 c:\users\dell\google drive\programming\c\hexxagon\hexxagon_control.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1542960334 c:\users\dell\google drive\programming\c\hexxagon\hexxagon_graphics.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"hexxagon_control.h"
+
+1542974958 source:c:\users\dell\google drive\programming\c\hexxagon\hexxagon_graphics.c
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1567983099 source:c:\users\dell\google drive\programming\c\hexxagon\main.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1571359708 source:/home/dicsegabor/Dev/C/Hexxagon/hexxagon_control.c
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1542942436 /home/dicsegabor/Dev/C/Hexxagon/hexxagon_control.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1542927934 /home/dicsegabor/Dev/C/Hexxagon/hexxagon_graphics.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"hexxagon_control.h"
+
+1542942558 source:/home/dicsegabor/Dev/C/Hexxagon/hexxagon_graphics.c
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+
+1542942436 source:/home/dicsegabor/Dev/C/Hexxagon/main.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"hexxagon_control.h"
+	"hexxagon_graphics.h"
+

@@ -1,0 +1,13 @@
+Expected
+Targy.Buvarruha.hasznal
+Unexpected
+Mozgathato.Karakter.meghal, Proto.ProtoProgram.jatekVege
+Commands
+loadmap map.txt
+setfield STABIL_2_3 2
+setfield INSTABIL_2_2 1 0
+karakter ESZKIMO STABIL_2_3 BUVARRUHA
+move ESZKIMO_0 INSTABIL_2_2
+stat INSTABIL_2_2
+stat ESZKIMO_0
+exit

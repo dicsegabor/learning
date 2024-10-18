@@ -1,0 +1,7 @@
+/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build/CMakeFiles/pathfinder.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build/CMakeFiles/edit_cache.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build/CMakeFiles/rebuild_cache.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build/CMakeFiles/list_install_components.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build/CMakeFiles/install.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build/CMakeFiles/install/local.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/pathfinder/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="madarak" />
+    <meta name="author" content="Dicse Gábor" />
+
+    <title>Tájaink madarai - Madárbarát</title>
+
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <ul id="pagemenu">
+      <li>
+        <a class="accessibility-link" href="#main-menu">Főmenü</a>
+      </li>
+      <li>
+        <a class="accessibility-link" href="#main-content">Tartalom</a>
+      </li>
+      <li>
+        <a class="accessibility-link" href="#video">Videó</a>
+      </li>
+      <li>
+        <a class="accessibility-link" href="#footer-menu">Lábléc</a>
+      </li>
+    </ul>
+    <div class="container">
+      <header class="page-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-2 mx-4">
+            <img src="media/bird_logo.png" alt="Logo" class="img-fluid" />
+          </div>
+          <div class="col-7">
+            <h1 class="page-header-logo text-dark">Tájaink Madarai</h1>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav-scroller py-2 mb-4" id="main-menu">
+        <nav class="nav">
+          <div class="container">
+            <div class="row">
+              <div class="col nav-button">
+                <a class="p-2 text-muted" href="index.html">Kezdőlap</a>
+              </div>
+              <div class="col nav-button">
+                <a class="p-2 text-muted" href="birds.html">Madarak</a>
+              </div>
+              <div class="col nav-button nav-button-active">
+                <a class="p-2 text-muted" href="bird_friendly.html"
+                  >Madárbarát</a
+                >
+              </div>
+              <div class="col nav-button">
+                <a class="p-2 text-muted" href="newsletter.html">Hírlevél</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <main class="container">
+        <div class="container d-flex justify-content-center mb-5">
+          <h2 class="page-title">Hogyan legyenek vendégeink?</h2>
+        </div>
+        <div class="page-content py-3 border-top">
+          <article id="video">
+            <section>
+              <div class="container bg-light p-3 rounded border">
+                <div class="container d-flex justify-content-center my-2">
+                  <h3 class="page-content-title">
+                    Hogyan javítsa kertjét a madarak számára
+                  </h3>
+                </div>
+                <p>
+                  A videó számos hasznos tanácsot ad arról, hogy a kertünk
+                  biodiverzitását hogyan növeljük, jelen esetben annak a
+                  madárbaráttá tételével. Leírja a madarak
+                  <b>alapvető szükségleteit</b>, és ezekre építve három fontos
+                  pontot emel ki. A madaraknak
+                  <b>táplálékra, menedékre és vízre</b> van szüksége, így ha azt
+                  akarjuk, hogy beköltözzenek, nekünk is
+                  <b>ezeket kell biztosítanunk</b> számukra. A kisfilm külön
+                  kitér minden egyes aspektusra és példákkal is ellát bennünket,
+                  hogy mi is <b>madárbaráttá tehessük környezetünk</b>.
+                </p>
+                <div class="container d-flex justify-content-center my-2">
+                  <a href="video_description.xhtml"> Videó hosszú leírása </a>
+                </div>
+              </div>
+            </section>
+
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                width="853"
+                height="480"
+                src="https://www.youtube.com/embed/nJ3NBlXFCxk"
+                title="How to improve your garden for birds. Gardening for Biodiversity series."
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </article>
+          <article id="main-content">
+            <div
+              class="container bg-image p-3 my-3 rounded d-flex justify-content-center"
+              style="background-image: url('media/seeds.webp')"
+            >
+              <div class="container bg-light py-3 m-4 rounded border">
+                <div class="container d-flex justify-content-center my-2">
+                  <h4 class="test-light">Mit esznek a madarak?</h4>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-auto">
+                    <table class="table thead-light table-responsive">
+                      <thead>
+                        <tr>
+                          <th scope="col">Szajkó</th>
+                          <th scope="col">Fekete rigó</th>
+                          <th scope="col">Kék cinege</th>
+                          <th scope="col">Házi rozsdafarkú</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Kisebb bogyók, rovarok, magvak</td>
+                          <td>Rovarok, lárvák, magvak</td>
+                          <td>Rovarok, télen magvak</td>
+                          <td>Rovarok, pókok</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <div id="bird-infra-pictures">
+            <div
+              class="row justify-content-between align-items-center mt-4 pt-4 border-top"
+            >
+              <div class="col d-flex justify-content-center">
+                <figure>
+                  <img
+                    src="media/birdfeeder_sm.jpeg"
+                    data-toggle="modal"
+                    data-target="#modal-feeder"
+                    alt="Madáretető"
+                    class="img-fluid rounded"
+                  />
+                  <figcaption>Madáretető</figcaption>
+                </figure>
+              </div>
+              <div class="col d-flex justify-content-center">
+                <figure>
+                  <img
+                    src="media/bird_pond_sm.jpg"
+                    data-toggle="modal"
+                    data-target="#modal-pond"
+                    alt="Madárfürdő"
+                    class="img-fluid rounded"
+                  />
+                  <figcaption>Madárfürdő</figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- modals -->
+    <div
+      class="modal fade"
+      id="modal-feeder"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img
+              src="media/birdfeeder.jpeg"
+              class="img-fluid rounded"
+              alt="Madáretető"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="modal-pond"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img
+              src="media/bird_pond.jpg"
+              class="img-fluid rounded"
+              alt="Madárfürdő készítés"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer my-4" id="footer-menu">
+      <p>Készítette:</p>
+      <p>Dicse Gábor</p>
+      <p>dicsegabor@gmail.com</p>
+      <p>
+        <a href="#">Vissza a tetejére</a>
+      </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+Expected
+Mezo.Mezo.setSzomszed, Mezo.Mezo.szomszedE, Mezo.Mezo.setHoreteg, Mezo.Jegtabla.setTargy, Mezo.Mezo.addKarakter, Mozgathato.Karakter.felvesz, Mezo.Jegtabla.felvesz, Targy.Kotel.tipus, Mezo.Mezo.getHoreteg, Mezo.Mezo.getKapacitas, Mezo.Jegtabla.getTargy
+Unexpected
+Mozgathato.Karakter.meghal
+Commands
+loadmap map.txt
+setfield STABIL_2_4 0 KOTEL
+karakter ESZKIMO STABIL_2_4
+pickup ESZKIMO_0
+stat STABIL_2_4
+stat ESZKIMO_0
+exit

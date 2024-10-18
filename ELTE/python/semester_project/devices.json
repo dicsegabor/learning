@@ -1,0 +1,22 @@
+[
+  {
+    "type": "SmartLight",
+    "id": "dr_l_1"
+  },
+  {
+    "type": "SmartLight",
+    "id": "lr_l_1"
+  },
+  {
+    "type": "SecurityCamera",
+    "id": "lr_sc_1"
+  },
+  {
+    "type": "Thermostat",
+    "id": "lr_th_1"
+  },
+  {
+    "type": "SecurityCamera",
+    "id": "dr_sc_1"
+  }
+]

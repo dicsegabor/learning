@@ -1,0 +1,9 @@
+﻿  board.cpp
+  control.cpp
+  field.cpp
+  graphics.cpp
+  linked_list.cpp
+  main.cpp
+C:\Users\Dell\Google Drive\Programming\C++\Demokratikus sakk (windows)\Dem sakk\main.cpp(14,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Dem sakk.vcxproj -> C:\Users\Dell\Google Drive\Programming\C++\Demokratikus sakk (windows)\x64\Debug\Dem sakk.exe

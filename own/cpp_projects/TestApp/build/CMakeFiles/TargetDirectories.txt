@@ -1,0 +1,9 @@
+/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/CMakeFiles/testapp.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/CMakeFiles/edit_cache.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/CMakeFiles/rebuild_cache.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/CMakeFiles/list_install_components.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/CMakeFiles/install.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/CMakeFiles/install/local.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/CMakeFiles/install/strip.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/CMakeFiles/testapp_autogen_timestamp_deps.dir
+/home/dicsegabor/dev/own_projects/c++/learning_projects/TestApp/build/CMakeFiles/testapp_autogen.dir

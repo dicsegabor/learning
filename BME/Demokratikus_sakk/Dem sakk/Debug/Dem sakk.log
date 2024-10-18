@@ -1,0 +1,7 @@
+﻿  board.cpp
+c:\users\dicse\desktop\gábor\programozás\c++\dem sakk\dem sakk\board.cpp : fatal error C1041: cannot open program database 'C:\Users\dicse\Desktop\Gábor\Programozás\C++\Dem sakk\Dem sakk\Debug\vc141.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  graphics.cpp
+c:\users\dicse\desktop\gábor\programozás\c++\dem sakk\dem sakk\graphics.cpp : fatal error C1041: cannot open program database 'C:\Users\dicse\Desktop\Gábor\Programozás\C++\Dem sakk\Dem sakk\Debug\vc141.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  main.cpp
+c:\users\dicse\desktop\gábor\programozás\c++\dem sakk\dem sakk\main.cpp : fatal error C1041: cannot open program database 'C:\Users\dicse\Desktop\Gábor\Programozás\C++\Dem sakk\Dem sakk\Debug\vc141.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  Generating Code...
