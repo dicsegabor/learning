@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Mi az a rezolúciós gráf?",
+        "type": "single-choice",
+        "answers": [
+            "Az útkeresési feladatot leíró irányított gráf.",
+            "Logikai következtetést szimbolizáló ÉS/VAGY gráf.",
+            "Az üres klóz előállítását bemutató gráf.",
+            "Az összes klóz előállítását bemutató gráf."
+        ]
+    },
+    {
+        "question": "Melyek a p || q   és a   !p || !q  rezolvensei?",
+        "type": "single-choice",
+        "answers": [
+            "üres klóz",
+            "p || q || !q     és    q || p || !p",
+            "p || !p    és   q || !q",
+            "nem rezolválhatók"
+        ]
+    },
+    {
+        "question": "Mi a globális munkaterülete a rezolúciónak?",
+        "type": "single-choice",
+        "answers": [
+            "A kiinduló és az eddig előállított klózok halmaza.",
+            "Az axiómákból és a célállítás negáltjából kialakított klózok halmaza.",
+            "Az egyedek populációja.",
+            "A formalizációban részt vevő predikátumok halmaza."
+        ]
+    },
+    {
+        "question": "Mi a keresési szabálya a rezolúciónak?",
+        "type": "single-choice",
+        "answers": [
+            "Az üres klóz előállítása.",
+            "A rezolvens képzés.",
+            "A Skolemizálás.",
+            "Az üres klóz levezetése."
+        ]
+    },
+    {
+        "question": "Melyik az alábbiak közül a visszafelé haladó szabályalapú reprezentáció jellemzője?",
+        "type": "single-choice",
+        "answers": [
+            "A szabályok W→L alakúak, ahol W egy ÉS/VAGY formula, L egy literál, és minden változó univerzálisan kvantált.",
+            "A célállítás egy L1 || … || Ln egzisztenciálisan kvantált formula, ahol Li literál.",
+            "A szabályok L→W alakúak, ahol W egy ÉS/VAGY formula, L egy literál, és minden változó univerzálisan kvantált.",
+            "A tényállítás egy univerzálisan kvantált ÉS/VAGY formula."
+        ]
+    },
+    {
+        "question": "Melyik az alábbiak közül az előrefelé haladó szabályalapú reprezentáció jellemzője?",
+        "type": "single-choice",
+        "answers": [
+            "A célállítás egy egzisztenciálisan kvantált ÉS/VAGY formula.",
+            "A szabályok W→L alakúak, ahol W egy ÉS/VAGY formula, L egy literál, és minden változó univerzálisan kvantált.",
+            "A szabályok L→W alakúak, ahol W egy ÉS/VAGY formula, L egy literál, és minden változó univerzálisan kvantált.",
+            "A tényállítás egy L1 || … || Ln univerzálisan kvantált formula, ahol Li literál."
+        ]
+    },
+    {
+        "question": "Hogyan kell a rezolúciót válaszadásra felhasználni?",
+        "type": "single-choice",
+        "answers": [
+            "A választ egy egzisztenciálisan kvantált változóval kell megjeleníteni a célállításban.",
+            "Az A1, … , An ⟹ C kérdés helyett az A1 && … && An && !C kielégíthetetlenségét vizsgáljuk.",
+            "A kérdésre adható választ egy külön predikátummal jelenítjük meg a célállításban.",
+            "A rezolúció csak igen/nem jellegű választ képes adni."
+        ]
+    },
+    {
+        "question": "Mi következik abból, hogy a rezolúció módszere helyes?",
+        "type": "multiple-choice",
+        "answers": [
+            "Ha elakad (nem tud újabb klózt előállítani), akkor a kiinduló klózhalmaz kielégíthető.",
+            "Ha üres klózzal terminál, akkor a kiinduló klózhalmaz kielégíthetetlen.",
+            "Mindig elő tudja állítani az üres klózt.",
+            "Kicsi a futási ideje."
+        ]
+    },
+    {
+        "question": "Mi következik abból, hogy a rezolúció módszere teljes?",
+        "type": "multiple-choice",
+        "answers": [
+            "Ha a kiinduló klózhalmaz kielégíthető, akkor nem állítja elő az üres klózt.",
+            "Ha a kiinduló klózhalmaz kielégíthetetlen, akkor levezethető az üres klóz.",
+            "Ha a kiinduló klózhalmaz kielégíthetetlen, akkor véges lépésen belül terminál.",
+            "Minden A1, … , An ⟹ C alakú tétel bizonyítására vagy cáfolására alkalmas."
+        ]
+    },
+    {
+        "question": "Melyek az alábbiak közül a rezolúció reprezentációs gráfjának különös tulajdonságai?",
+        "type": "multiple-choice",
+        "answers": [
+            "Nincs benne zsákutca.",
+            "Nincs benne kör.",
+            "Ha a stratcsúcsból vezet út célcsúcsba, akkor mindegyik startcsúcsból elérhető csúcsból is vezet célcsúcsba út.",
+            "Bármelyik csúcsból bármelyik csúcsba el lehet jutni."
+        ]
+    },
+    {
+        "question": "Melyek lehetnek az alábbiak közül a rezolúció modellfüggő vágó stratégiái?",
+        "type": "multiple-choice",
+        "answers": [
+            "Mindig azt a klózpárt rezolváljuk előbb, amelyikben a literálok száma a legkevesebb.",
+            "Minden rezolúciós lépésben az egyik szülőklóz egyetlen literálból álljon.",
+            "Minden rezolúciós lépésben az egyik szülőklóz az utoljára előállított klóz legyen.",
+            "Soroljuk be szintekre a rezolúciós gráf klózait. Nulladik szinten a kiinduló klózok, az i+1-dik szinten azok, amelyek egyik szülője az i-dik szinten van, másik szülője az első i szint valamelyikén. Állítsuk elő szintenként a klózokat."
+        ]
+    },
+    {
+        "question": "Melyek az alábbiak közül a rezolúció modellfüggő sorrendi stratégiái?",
+        "type": "multiple-choice",
+        "answers": [
+            "Mindig azt a klózpárt rezolváljuk, amelyekben a literálok száma a legkevesebb.",
+            "Minden rezolúciós lépésben az egyik szülőklóz egyetlen literálból álljon.",
+            "Soroljuk be szintekre a rezolúciós gráf klózait. Nulladik szinten a kiinduló klózok, az i+1-dik szinten azok, amelyek egyik szülője az i-dik szinten van, a másik szülő az első i szint valamelyikén. Állítsuk elő szintenként a klózokat.",
+            "Minden rezolúciós lépésben az egyik szülőklóz az utoljára előállított klóz legyen."
+        ]
+    }
+]

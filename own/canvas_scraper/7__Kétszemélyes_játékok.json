@@ -1,0 +1,154 @@
+[
+    {
+        "question": "A kurzuson speciális kétszemélyes játékokkal foglalkoztunk. Az alábbiak közül melyik tulajdonság NEM volt érvényes ezekre?",
+        "type": "single-choice",
+        "answers": [
+            "egyik játékosnak biztos van győztes stratégiája",
+            "véges",
+            "zéró összegű",
+            "determinisztikus"
+        ]
+    },
+    {
+        "question": "Hogyan modellezzük a kétszemélyes játékokat?",
+        "type": "single-choice",
+        "answers": [
+            "Probléma dekompozícióval.",
+            "Állapottér modellel.",
+            "ÉS/VAGY fákkal.",
+            "Korlátkielégítéses modellel."
+        ]
+    },
+    {
+        "question": "Mi a nyerő stratégiája egy játékosnak egy kétszemélyes játékban?",
+        "type": "single-choice",
+        "answers": [
+            "A győztes végállásba vezető egyik játszmája.",
+            "Azon győztes végállásba vezető játszmáinak összessége, amelyek közül valamelyiket biztosan végig tudja játszani, ha nem hibázik.",
+            "Győztes végállásba vezető játszmáinak összessége.",
+            "Győztes végállásainak összessége."
+        ]
+    },
+    {
+        "question": "Melyik állítás igaz az alábbiak közül egy játékos nyerő stratégiára?",
+        "type": "single-choice",
+        "answers": [
+            "Mindkét játékos számára előállítható.",
+            "A játékfából a játékos szempontjából készített ÉS/VAGY fában egy olyan hiperút, amelyik a startcsúcsból csupa, a játékos számára nyerő végállásba vezet.",
+            "A játékfából készített ÉS/VAGY fában egy olyan hiperút, amelyik a startcsúcsból csupa, a játékos számára nyerő végállásba vezet.",
+            "Az egyik játékos biztosan rendelkezik vele."
+        ]
+    },
+    {
+        "question": "Hogyan lehet megtudni, hogy kinek van győztes stratégiája egy két kimenetelű kétszemélyes játékban?",
+        "type": "multiple-choice",
+        "answers": [
+            "A játékfa leveleit megcímkézzük annak a játékosnak a nevével, aki a levélcsúccsal jelzett állásban nyerni fog. Szintről szintre felfelé haladva az Y játékos szintjén levő csúcs, ha van Y címkéjű gyereke, akkor Y címkét kap; különben a másik játékos nevét írjuk oda. A gyökér címkéje adja meg a választ.",
+            "Nem lehet véges lépésben megválaszolni ezt a kérdést.",
+            "Átalakítjuk a játékfát ÉS/VAGY fává, és ebben keresünk olyan gyökérből induló hiperutat, amely vagy kizárólag az egyik, vagy kizárólag a másik játékos csupa győztes levélcsúcsába vezet.",
+            "Úgy, hogy a minimax algoritmust alkalmazzuk a teljes játékfára úgy, hogy az első játékos győztes állásaihoz +1-et, a vesztes állásaihoz -1-et rendelünk. Ha a gyökérbe felfuttatott érték +1, akkor az első játékosnak van győztes stratégiája, egyébként a másodiknak."
+        ]
+    },
+    {
+        "question": "Mikor következik be vágás az alfa-béta algoritmus működése során?",
+        "type": "single-choice",
+        "answers": [
+            "Ha az aktuális csúcs alfa értéke nagyobb vagy egyenlő a csúcs béta értékénél.",
+            "Ha az aktuális út egy alfa értéke kisebb vagy egyenlő az út egy béta értékénél.",
+            "Ha az aktuális csúcs alfa értéke nagyobb vagy egyenlő az alatta vagy felette levő csúcs béta értékénél.",
+            "Ha az aktuális út egy alfa értéke nagyobb vagy egyenlő az út egy béta értékénél."
+        ]
+    },
+    {
+        "question": "Mi az a nyugalmi teszt?",
+        "type": "multiple-choice",
+        "answers": [
+            "Az alfa-béta algoritmus vágási feltételét ellenőrző teszt.",
+            "Egy szülőcsúcs és egy gyerekének kiértékelő függvényértékei különbségét vizsgáló teszt.",
+            "Váltakozó mélységű keresésnél a részfa felépítéséhez használt feltétel.",
+            "A heurisztikus kiértékelő függvény konstruálásához használt lehetséges módszer."
+        ]
+    },
+    {
+        "question": "Mely állítások igazak az alábbiak közül a játékfákra?",
+        "type": "multiple-choice",
+        "answers": [
+            "Csúcsai a játék állásait szimbolizálják.",
+            "Szintjei a soron következő játékost szimbolizálják.",
+            "Ágai a lehetséges játszmákat szimbolizálják.",
+            "Levelei a győztes állásokat szimbolizálják."
+        ]
+    },
+    {
+        "question": "Melyek az alábbiak közül a minimax algoritmusnak a lépései?",
+        "type": "multiple-choice",
+        "answers": [
+            "A saját szintjeink csúcsaihoz a gyerekeik értékeinek maximumát írjuk.",
+            "Felépítjük a játékfát.",
+            "Megadjuk a legnagyobb értékű levélcsúcshoz vezető ágat.",
+            "Kiértékeljük a felépített fa leveleit."
+        ]
+    },
+    {
+        "question": "Az alábbi részleges játékfa kiértékelő módszerek közül melyik ad a minimax-szal azonos eredményt?",
+        "type": "multiple-choice",
+        "answers": [
+            "szelektív algoritmus",
+            "negamax algoritmus",
+            "(n,m) átlagoló algoritmus",
+            "alfa-béta algoritmus"
+        ]
+    },
+    {
+        "question": "Mi a játékfa?",
+        "type": "multiple-choice",
+        "answers": [
+            "A kétszemélyes játék modelljének állapotgráfjából kialakított irányított fa.",
+            "Olyan ÉS/VAGY fa, amelyik szintjeiről váltakozva vagy csak ÉS kapcsolatú élek indulnak ki, vagy csak VAGY kapcsolatú élek.",
+            "Egy ÉS/VAGY fa.",
+            "Az összes játszmát irányított útként megjelenítő irányított fa."
+        ]
+    },
+    {
+        "question": "Mely fogalmak kapcsolhatók egymáshoz a részleges játékfa-kiértékeléseknél?",
+        "type": "matching",
+        "pairs": [
+            {
+                "label": "negamax algoritmus",
+                "options": [
+                    "megbízhatóbb kiértékelés",
+                    "kiértékelő függvény tévedéseinek kezelése",
+                    "hatákonyabb módszer",
+                    "könnyebb implementáció"
+                ]
+            },
+            {
+                "label": "(m,n) átlagoló kiértékelés",
+                "options": [
+                    "megbízhatóbb kiértékelés",
+                    "kiértékelő függvény tévedéseinek kezelése",
+                    "hatákonyabb módszer",
+                    "könnyebb implementáció"
+                ]
+            },
+            {
+                "label": "váltakozó mélységű kiértékelés",
+                "options": [
+                    "megbízhatóbb kiértékelés",
+                    "kiértékelő függvény tévedéseinek kezelése",
+                    "hatákonyabb módszer",
+                    "könnyebb implementáció"
+                ]
+            },
+            {
+                "label": "alfa-béta algoritmus",
+                "options": [
+                    "megbízhatóbb kiértékelés",
+                    "kiértékelő függvény tévedéseinek kezelése",
+                    "hatákonyabb módszer",
+                    "könnyebb implementáció"
+                ]
+            }
+        ]
+    }
+]

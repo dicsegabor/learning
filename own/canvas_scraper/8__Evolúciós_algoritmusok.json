@@ -1,0 +1,154 @@
+[
+    {
+        "question": "Milyen az általános vezérlési stratégiája az evolúviós algoritmusoknak?",
+        "type": "single-choice",
+        "answers": [
+            "mohó",
+            "gráfkereső",
+            "visszalépéses",
+            "nem-módosítható"
+        ]
+    },
+    {
+        "question": "Mit tárol az evolúciós algoritmus a globális munkaterületén?",
+        "type": "single-choice",
+        "answers": [
+            "Az evolúciós operátorokat.",
+            "A rekombinációra kiválasztott egyedek halmazát.",
+            "A populációt.",
+            "Az egyedek alkotta problémateret."
+        ]
+    },
+    {
+        "question": "Melyik NEM evolúciós operátor az alábbiak közül?",
+        "type": "single-choice",
+        "answers": [
+            "Rulett kerék algoritmus.",
+            "Kétpontos keresztezés.",
+            "Egy egyed kódolása.",
+            "Véletlen cseréje a kód két elemének."
+        ]
+    },
+    {
+        "question": "Hogyan szokták az egyedeket kódolni?",
+        "type": "single-choice",
+        "answers": [
+            "Úgy, hogy a kódolás és a dekódolás is hatékony legyen.",
+            "Úgy, hogy az egyed kódja egy kromoszóma legyen.",
+            "Úgy, hogy a dekódolás gyors legyen, mert a fittnesz függvényt az egyedre lehet kiszámolni.",
+            "Úgy, hogy a kód darabjai az egyed egy-egy tulajdonságát mutassa."
+        ]
+    },
+    {
+        "question": "Hol épülhet véletlenített módszer az evolúciós algoritmusba?",
+        "type": "single-choice",
+        "answers": [
+            "Csak a populáció lecserélendő egyedeinek előállításában.",
+            "Csak a kiválasztásban, a rekombinációban, és a mutációban.",
+            "Csak a kezdeti populáció kialakításában és mind a négy evolúciós operátorban.",
+            "Csak a keresztezési pontok megadásában."
+        ]
+    },
+    {
+        "question": "Hol van szerepe a kiválasztásnak az evolúciós algoritmusban?",
+        "type": "multiple-choice",
+        "answers": [
+            "A keresztezési pontok megadásában.",
+            "Ez az első lépése az evolúciós ciklusnak.",
+            "A populáció lecserélendő egyedeinek előállításában.",
+            "A rekombinációhoz szükséges szülő egyedek előállításában és az új populáció kialakításában."
+        ]
+    },
+    {
+        "question": "Mi a lényege a jó kiválasztási módszernek az evolúciós algoritmusokban?",
+        "type": "single-choice",
+        "answers": [
+            "A fittnesz függvény alapján rendezi sorba a populáció egyedeit.",
+            "Megkeresi a populáció legjobb egyedét.",
+            "Figyelembe veszi, hogy a kódban melyek az egyed tulajdonságait jelző szakaszok.",
+            "A rátermett egyedeket nagyobb valószínűséggel választja ki, de ad esélyt a kevésbé rátermettek kiválasztására is."
+        ]
+    },
+    {
+        "question": "Mi a kapcsolat a keresztezés és a rekombináció között?",
+        "type": "single-choice",
+        "answers": [
+            "A keresztezés mindig megelőzi a rekombinációt.",
+            "A keresztezések speciális rekombinációk.",
+            "A rekombinációk speciális keresztezések.",
+            "A rekombináció a szülő egyedeken, míg a keresztezés azok kódjával dolgozik."
+        ]
+    },
+    {
+        "question": "Melyek lehetnek a feltételei az evolúciós algoritmus leállásának?",
+        "type": "multiple-choice",
+        "answers": [
+            "Célegyed megjelenése a populációban.",
+            "Nincsen a populációnak adott korlátnál nagyobb fittneszértékű egyede.",
+            "A populáció minden egyedének fittneszértéke meghalad egy adott korlátot.",
+            "A populáció összesített fittneszértéke már egy ideje nem változik."
+        ]
+    },
+    {
+        "question": "Mely keresztezési módszerek őrzik meg  permutáció tulajdonságot?",
+        "type": "multiple-choice",
+        "answers": [
+            "Ciklikus keresztezés.",
+            "Egyenletes keresztezés.",
+            "Egypontos keresztezés.",
+            "Parciálisan illesztett keresztezés."
+        ]
+    },
+    {
+        "question": "Az alábbiak közül, melyek alkalmas módszerek a permutáció tulajdonságot megőrző mutációra?",
+        "type": "multiple-choice",
+        "answers": [
+            "Kód első két elemének cseréje.",
+            "Kód növekvő sorba rendezése.",
+            "Kód egy szakaszának átrendezése.",
+            "Kód két véletlen választott elemének cseréje."
+        ]
+    },
+    {
+        "question": "Mely fogalmak kapcsolhatók egymáshoz az evolúciós algoritmusoknál?",
+        "type": "matching",
+        "pairs": [
+            {
+                "label": "kétpontos keresztezés",
+                "options": [
+                    "parciális illesztett keresztezés",
+                    "kód",
+                    "populáció mérete",
+                    "fittnesz függvény"
+                ]
+            },
+            {
+                "label": "kiválasztás",
+                "options": [
+                    "parciális illesztett keresztezés",
+                    "kód",
+                    "populáció mérete",
+                    "fittnesz függvény"
+                ]
+            },
+            {
+                "label": "egyed",
+                "options": [
+                    "parciális illesztett keresztezés",
+                    "kód",
+                    "populáció mérete",
+                    "fittnesz függvény"
+                ]
+            },
+            {
+                "label": "stratégiai paraméter",
+                "options": [
+                    "parciális illesztett keresztezés",
+                    "kód",
+                    "populáció mérete",
+                    "fittnesz függvény"
+                ]
+            }
+        ]
+    }
+]
